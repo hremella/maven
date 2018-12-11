@@ -1,6 +1,7 @@
 pipeline {
     agent {
     docker {
+    jdk 'jdk8'
         image 'maven:latest'
 }
     }
